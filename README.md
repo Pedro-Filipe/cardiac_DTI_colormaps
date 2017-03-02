@@ -1,6 +1,6 @@
 # Colormaps for cardiac DTI
 
-This repository contains Colormaps tailored for cardiac DTI.
+This repository contains colormaps tailored for cardiac DTI.
 Please feel free to use them and also to commit your own suggestions. I am sure we as a community can considerably improve them.
 
 This repository was created after coming across several articles showing the shortcomings of the colormap "jet", by far the most used colormap in MR after grayscale:
@@ -23,16 +23,22 @@ In short we can divide colours stimulus in three dimensions:
 
 Human vision is highly sensitive to luminance, and the 'jet' colour map has a non-monotonical luminance profile which affects human perception. Additionally, when displaying angles that wraparound, such as helix-angle, the colormap should also wrap to aid interpretation.
 
-With this in mind here is a set of colourmaps for tensor orientation measures:
+With this in mind here is a list of colourmaps for tensor orientation measures:
 
 ### Helix-angle
-![helix-angle](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/helix-angle.png)
+![helix-angle](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/helix_angle.png)
+
+Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap through black.
 
 ### E2A
 ![E2A](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/E2A.png)
 
+Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap through black.
+
 ### Absolute E2A
 ![absolute E2A](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/abs_E2A.png)
+
+This maps does not wrap as it is showing absolute angles. It separates angles below and above 45 deg in order to visualise differences between diastole and systole conformations.
 
 
 
