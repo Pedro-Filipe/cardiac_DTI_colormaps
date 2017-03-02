@@ -12,6 +12,9 @@ This repository was created after coming across several articles showing the sho
  -  [The "Which Blair project": a quick visual method for evaluating perceptual color maps](http://ieeexplore.ieee.org/abstract/document/964510/?reload=true&section=abstract)
  -  [Why Should Engineers and Scientists Be Worried About Color?](http://www.research.ibm.com/people/l/lloydt/color/color.HTM)
 
+https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/jet.png
+*jet colormap*
+
 In short we can divide colours stimulus in three dimensions:
 
 - The luminance
