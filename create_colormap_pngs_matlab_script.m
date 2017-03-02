@@ -18,10 +18,9 @@ for file_index = 1 : n_files
     image(vector)
     colormap(rgb_array);
     ax = gca;
-    ax.Box = 'on';
+    ax.Box = 'off';
     ax.XTick = [];
     ax.YTick = [];
-    ax.LineWidth = 1;
     current_name = strrep(current_name,' ','_');
     set(gca,'LooseInset',get(gca,'TightInset'))
     print(gcf,'-dpng',['colormaps_pngs/' current_name '.png'])

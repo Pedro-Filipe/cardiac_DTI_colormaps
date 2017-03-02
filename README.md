@@ -21,4 +21,18 @@ In short we can divide colours stimulus in three dimensions:
 - The saturation
 - The Hue
 
-Human vision is highly sensitive to luminance, and the 'jet' colour map has a non-monotonical luminance profile which affects human perception.
+Human vision is highly sensitive to luminance, and the 'jet' colour map has a non-monotonical luminance profile which affects human perception. Additionally, when displaying angles that wraparound, such as helix-angle, the colormap should also wrap to aid interpretation.
+
+With this in mind here is a set of colourmaps for tensor orientation measures:
+
+### Helix-angle
+![helix-angle](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/helix-angle.png)
+
+### E2A
+![E2A](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/E2A.png)
+
+### Absolute E2A
+![absolute E2A](https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/abs_E2A.png)
+
+
+
