@@ -46,7 +46,7 @@ This maps does not wrap as it is showing absolute angles. It separates angles be
 ## Colormap data
 The colormap data is located in the *colormaps_data* folder. Each colormap is a text ASCII file with a 256 x 3 RGB array.
 
-There is also a MATLAB script that will go though the text files and creates PNGs of the colormaps at *colormaps_pngs* folder.
+There is also a MATLAB script that will go through the text files and creates PNGs of the colormaps in the *colormaps_pngs* folder.
 
 [1]:	https://jakevdp.github.io/blog/2014/10/16/how-bad-is-your-colormap/
 [2]:	http://cresspahl.blogspot.co.uk/2012/03/expanded-control-of-octaves-colormap.html
