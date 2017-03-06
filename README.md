@@ -17,7 +17,7 @@ This repository was created after coming across several articles showing the sho
 ![jet colormap][image-1]
 *jet colormap*
 
-In short we can divide colours stimulus in three dimensions:
+In short, we can divide colours stimulus in three dimensions:
 
 - The luminance
 - The saturation
@@ -40,7 +40,7 @@ Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap th
 ### Absolute E2A
 ![absolute E2A][image-4]
 
-This maps does not wrap as it is showing absolute angles. It separates angles below and above 45 deg in order to visualise differences between diastole and systole conformations.
+This maps does not wrap as it is showing absolute angles. It separates angles below and above 45 deg in different colours in order to visualise differences between diastole and systole conformations (below and above 45 deg respectively in healthy hearts).
 
 
 ## Colormap data
