@@ -3,7 +3,7 @@
 colormap_file_list = dir('colormaps_data/*.txt');
 n_files = length(colormap_file_list);
 
-vector = 1:256;
+% vector = 1:256;
 
 for file_index = 1 : n_files
     
@@ -15,6 +15,7 @@ for file_index = 1 : n_files
     
     h = figure('Visible','off','Units', 'Pixels','Position',[0 0 1024 100]);
     % % %     title(current_name,'FontName','Helvetica Neue','FontSize',25)
+    vector = 1 : size(rgb_array,1);
     image(vector)
     colormap(rgb_array);
     ax = gca;

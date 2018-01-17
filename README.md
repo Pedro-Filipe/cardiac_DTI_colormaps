@@ -27,21 +27,36 @@ Human vision is highly sensitive to luminance, and the 'jet' colour map has a no
 
 With this in mind here is a list of colourmaps for tensor orientation measures:
 
-### Helix-angle
+### Tensor orientation
+
+#### Helix-angle
 ![helix-angle][image-2]
 
 Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap through black.
 
-### E2A
+#### E2A
 ![E2A][image-3]
 
 Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap through black.
 
-### Absolute E2A
+#### Absolute E2A
 ![absolute E2A][image-4]
 
 This maps does not wrap as it is showing absolute angles. It separates angles below and above 45 deg in different colours in order to visualise differences between diastole and systole conformations (below and above 45 deg respectively in healthy hearts).
 
+#### E1 transverse angle
+![E1 transverse angle][image-5]
+Luminance encodes inclination. Hue encodes polarity of the angle. Angles wrap through black.
+
+### Rotational invariants
+#### Fractional anisotropy
+![Fractional anisotropy][image-6]
+
+#### Mean diffusivity
+![Mean diffusivity][image-7]
+
+#### Tensor mode
+![Tensor mode][image-8]
 
 ## Colormap data
 The colormap data is located in the *colormaps_data* folder. Each colormap is a text ASCII file with a 256 x 3 RGB array.
@@ -59,3 +74,7 @@ There is also a MATLAB script that will go through the text files and creates PN
 [image-2]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/helix_angle.png
 [image-3]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/E2A.png
 [image-4]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/abs_E2A.png
+[image-5]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/E1_TA.png
+[image-6]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/FA.png
+[image-7]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/MD.png
+[image-8]:	https://github.com/Pedro-Filipe/cardiac_DTI_colormaps/blob/master/colormaps_pngs/tensor_mode.png
