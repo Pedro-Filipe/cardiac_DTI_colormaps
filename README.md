@@ -5,14 +5,14 @@
 This repository contains colormaps tailored for cardiac DTI.
 Please feel free to use them and also to commit your own suggestions. I am sure we as a community can considerably improve them.
 
-This repository was created after coming across several articles showing the shortcomings of the colormap "jet", by far the most used colormap in MR after grayscale:
+This repository was created after coming across several articles showing the shortcomings of the colormap "jet", by far the most used colormap in MR, after grayscale:
 
  - [How bad is your colour map?][1]
  - [The 'jet' colormap must die][2]
  - [matplotlib: choosing colourmaps][3]
- -  [Rainbow Color Map Critiques][4]
- -  [The "Which Blair project": a quick visual method for evaluating perceptual color maps][5]
- -  [Why Should Engineers and Scientists Be Worried About Color?][6]
+ - [Rainbow Color Map Critiques][4]
+ - [The "Which Blair project": a quick visual method for evaluating perceptual color maps][5]
+ - [Why Should Engineers and Scientists Be Worried About Color?][6]
 
 ![jet colormap][image-1]
 *jet colormap*
@@ -21,7 +21,7 @@ In short, we can divide colours stimulus in three dimensions:
 
 - The luminance
 - The saturation
-- The Hue
+- The hue
 
 Human vision is highly sensitive to luminance, and the 'jet' colour map has a non-monotonical luminance profile which affects human perception. Additionally, when displaying angles that wraparound, such as helix-angle, the colormap should also wrap to aid interpretation.
 
